@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --white: #fff;
+    --gray: #333;
+    --black: rgb(15, 15, 15);
+    --green: rgb(39, 229, 188);
+}
+
+.sobre {
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.sobre-content {
+    width: 90%;
+    text-align: center;
+}
+
+.sobre-content h3 {
+    font-size: 4vmin;
+    font-weight: 500;
+}
+
+.sobre-content p {
+    font-size: 3vmin;
+    padding: 4vh;
+}
+
+.sobre-images {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.sobre-images img {
+    width: 47%;
+    margin: 0.5vw;
+    border-radius: 5px;
+}
+
+.sobre-images img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
