@@ -7,47 +7,68 @@
     --green: rgb(39, 229, 188);
 }
 
-.sobre {
+.basic {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+}
+.hero {
     width: 80%;
     height: 90vh;
     display: flex;
-    margin: 10vh auto;
+    margin: 0.5vh auto;
     align-items: center;
     justify-content: center;
     gap: 2vw;
 }
 
-.sobre-content {
+.hero-content {
     width: 90%;
-    text-align: center;
+    text-align: left;
 }
 
-.sobre-content h3 {
+.hero-content h3 {
     font-size: 4vmin;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 10vh;
+    cursor: pointer;
+}
+
+.hero-content h1 {
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
-.sobre-content p {
-    font-size: 3vmin;
-    padding: 4vh;
+#underline-name {
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-underline-offset: 15px;
 }
 
-.sobre-images {
+.hero-content p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-top: 5vh;
+}
+
+.hero-images {
     width: 80%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
-.sobre-images img {
+.hero-images img {
     width: 47%;
     margin: 0.5vw;
     border-radius: 5px;
 }
 
-.sobre-images img:hover {
+.hero-images img:hover {
     cursor: pointer;
     transform: scale(1.1);
     transition: .5s;
