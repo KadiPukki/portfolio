@@ -5,6 +5,14 @@
     --gray: #333;
     --black: rgb(15, 15, 15);
     --green: rgb(39, 229, 188);
+} 
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--white);
 }
 
 button {
@@ -73,7 +81,10 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
+.hero-social i {
+    padding: 0 1vw;
 }
 
 .hero-images img {
