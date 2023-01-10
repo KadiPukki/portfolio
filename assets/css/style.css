@@ -28,6 +28,7 @@ button {
 button:hover {
     background-color: var(--white);
     color: var(--black);
+    transform: scale(1.1);
 }
 .basic {
     background-color: var(--black);
@@ -87,14 +88,14 @@ button:hover {
     padding: 0 1vw;
 }
 
-.hero-images img {
-    width: 47%;
-    margin: 0.5vw;
-    border-radius: 5px;
+.hero-social-icon:hover {
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
-.hero-images img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: .5s;
+.hero-images img {
+    width: 75%;
+    margin: 0.5vw;
+    border-radius: 5px;    
 }
+
