@@ -37,8 +37,7 @@ button:hover {
 }
 
 .nav-bar {
-    display: flex;
-   
+    display: flex;   
     width: 100%;
     height: 10vh;
     justify-content: space-between;
@@ -63,13 +62,11 @@ button:hover {
 }
 
 .hero {
-    width: 80%;
-    height: 90vh;
+    width: 90%;
+    height: 120vh;
     display: flex;
-    margin: 8vh auto auto auto;
-    align-items:baseline;
-    justify-content: center;
-    gap: 2vw;
+    margin: 5vh auto;
+    
 }
 
 .hero-content {
@@ -96,16 +93,10 @@ button:hover {
 
 .hero-images {
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .hero-images img {
-    width: 75%;
-    margin: 0.5vw;
-    border-radius: 5px;    
+    width: 70%;
+    border-radius: 5px;  
 }
 
