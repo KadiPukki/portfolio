@@ -2,4 +2,8 @@
     .hero {
         flex-direction: column;
     }
+
+        .hero-images {
+            width: 100%;
+        }
 }

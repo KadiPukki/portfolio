@@ -66,11 +66,12 @@ button:hover {
     height: 120vh;
     display: flex;
     margin: 5vh auto;
+    gap: 5vmin;
     
 }
 
 .hero-content {
-    width: 100%;
+    width: 80%;
     text-align: left;
 }
 
@@ -92,7 +93,7 @@ button:hover {
 }
 
 .hero-images {
-    width: 80%;
+    width: 70%;
 }
 
 .hero-images img {
