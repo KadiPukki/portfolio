@@ -1,0 +1,17 @@
+.features {
+    width: 100%;
+    height: auto;
+}
+
+.features-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    padding: 2em;
+}
