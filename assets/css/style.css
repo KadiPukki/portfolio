@@ -93,11 +93,13 @@ button:hover {
 }
 
 .hero-images {
-    width: 70%;
+    width: 80%;
 }
 
 .hero-images img {
-    width: 70%;
-    border-radius: 5px;  
+    padding-left: 20%; 
+    padding-right: 20%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 

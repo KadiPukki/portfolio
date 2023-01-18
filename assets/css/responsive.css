@@ -3,7 +3,11 @@
         flex-direction: column;
     }
 
-        .hero-images {
-            width: 100%;
-        }
+    .hero-content {
+        width: 95%;
+    }
+
+    .hero-images {
+        width: 95%;
+    }
 }
