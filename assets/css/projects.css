@@ -3,6 +3,12 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    margin: auto;
+}
+
+.projects-btn {
+    height: 2.2em;
+    margin-top: 2.5vh;
 }
 
 .projects-title {
@@ -14,4 +20,6 @@
 .cards-1 {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
