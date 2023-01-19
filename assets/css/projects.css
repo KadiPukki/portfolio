@@ -17,9 +17,10 @@
     justify-content: space-around;
 }
 
-.cards-1 {
+.cards-1, .cards-2, .cards-3 {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
+    color: var(--black);
 }
