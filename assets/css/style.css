@@ -109,3 +109,10 @@ button:hover {
     padding-bottom: 10vh;
 }
 
+.white-line {
+    width: 80%;
+    height: 0.2vh;
+    background-color: var(--white);
+    margin: -5vh auto 2vh auto;
+}
+
