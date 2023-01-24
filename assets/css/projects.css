@@ -26,3 +26,29 @@
     color: var(--black);
     margin-bottom: 10vh;
 }
+
+.card-style {
+    max-width: 18rem;
+}
+
+.card-style:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card-btn {
+    background-color: var(--white);
+    color: var(--black);
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 0.5em;
+}
+
+.card-btn:hover {
+    background-color: var(--green);
+    color: var(--white);
+    transform: scale(1.1);
+}
