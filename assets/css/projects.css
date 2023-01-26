@@ -37,8 +37,8 @@
 }
 
 .card-btn {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
     border-style: none;
     text-transform: uppercase;
     font-size: 0.8rem;
