@@ -1,8 +1,7 @@
 .projects {
-    width: 80%;
-    height: auto;
+    /*height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;^*/
     margin: 15vh auto;
 }
 
@@ -15,6 +14,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 5vh;
     margin-bottom: 5vh;
 }
 
@@ -45,10 +45,11 @@
     font-weight: 500;
     transition: 0.5s;
     padding: 0.5em;
+    margin: 1em;
 }
 
 .card-btn:hover {
-    background-color: var(--green);
+    background-color: var(--gray);
     color: var(--white);
     transform: scale(1.1);
 }
