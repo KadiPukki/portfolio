@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vmin;
+}
+
+.footer-logo {
+    font-size: 4vmin;
+    font-weight: 500;
+    color: var(--white);
+    cursor: pointer;
+}
+
